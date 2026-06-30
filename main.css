@@ -107,30 +107,32 @@ body{
 
 .logo-icon{
 
-    width:58px;
+width:64px;
 
-    height:58px;
+height:64px;
 
-    border-radius:16px;
+border-radius:18px;
 
-    background:linear-gradient(
-    135deg,
-    var(--primary),
-    var(--green));
+background:linear-gradient(
+135deg,
+#1565C0,
+#2E7D32);
 
-    display:flex;
+display:flex;
 
-    justify-content:center;
+justify-content:center;
 
-    align-items:center;
+align-items:center;
 
-    color:white;
+box-shadow:var(--shadow);
 
-    font-weight:bold;
+transition:.35s;
 
-    font-size:20px;
+}
 
-    box-shadow:var(--shadow);
+.logo:hover .logo-icon{
+
+transform:rotate(-8deg) scale(1.08);
 
 }
 
